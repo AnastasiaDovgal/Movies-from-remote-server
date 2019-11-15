@@ -1,0 +1,23 @@
+/* .pagination-container {
+    margin: 60px 5px 0;
+} */
+
+.pagination {
+    /* position: fixed;
+    bottom: 0;
+    right: 0; */
+    width: 90%;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    padding: 13px 16px;
+    background-color: white;
+}
+
+.activ-btn {
+    background-color: black;
+    color: rgb(236, 234, 234);
+}

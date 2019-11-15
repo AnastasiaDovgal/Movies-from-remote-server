@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+form input,
+select,
+button {
+    padding: 10px 13px;
+    margin: 10px 15px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(190, 187, 187) !important;
+    color: rgb(236, 234, 234) !important;
+    transition: all 0.5s;
+}
+
+h1,
+h3 {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.loader {
+    position: fixed;
+    z-index: 100;
+    top: 20%;
+    right: 30%;
+    left: 33%;
+}

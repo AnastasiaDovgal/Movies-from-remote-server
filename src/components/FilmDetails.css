@@ -1,0 +1,32 @@
+.details-container {
+    background-color: rgba(167, 167, 167, 0.432);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* margin: 0 !important; */
+}
+
+.details-container ul {
+    list-style-type: none;
+    /* background-color: rgba(167, 167, 167); */
+    background-color: white;
+    padding: 0 20px 20px;
+    margin: 5% 33%;
+    overflow-X: auto;
+}
+
+.details-container li {
+    padding: 5px 0;
+}
+
+/* .details-container a {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.details-container img {
+    width: 100%;
+}
